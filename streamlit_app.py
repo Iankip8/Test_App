@@ -53,7 +53,7 @@ def main():
                 # Send POST request to Flask API
                 try:
                     response = requests.post(
-                        'https://project-test-dep-7.onrender.com/predict',
+                        'https://test-app-tr74.onrender.com/predict',
                         json={'input': [input_text]},
                         headers={'Content-Type': 'application/json'}
                     )
